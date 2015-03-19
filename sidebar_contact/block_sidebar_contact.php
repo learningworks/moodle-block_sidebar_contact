@@ -18,7 +18,7 @@
  * Main file to display the block
  *
  * @package    block_sidebar_contact
- * @copyright  2015 Aaron Leggett - LearningWorks Ltd
+ * @copyright  2015 Aaron Leggett & Thomas Threadgold - LearningWorks Ltd
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -38,6 +38,8 @@ class block_sidebar_contact extends block_base {
 	    if ($this->content !== null) {
 	    	return $this->content;
 	    }
+
+	    $this->content = new stdClass();
 
 	    $enabledForGuests = get_config('block_sidebar_contact', 'unauth_sidebar_contact');
 

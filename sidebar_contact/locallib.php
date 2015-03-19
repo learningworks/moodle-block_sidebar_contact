@@ -18,7 +18,7 @@
  * Lib File
  *
  * @package    block_sidebar_contact
- * @copyright  2015 Aaron Leggett - LearningWorks Ltd
+ * @copyright  2015 Aaron Leggett & Thomas Threadgold - LearningWorks Ltd
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
